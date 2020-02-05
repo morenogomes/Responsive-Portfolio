@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: auto;
+}
+
+body {
+    /* background-image: url(https://twistedsifter.files.wordpress.com/2017/05/sugarloaf_sunrise_rio-de-janeiro-brazil-by-donatas-dabravolskas.jpg); */
+    /* background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/15/94/285823f61c7ed73.jpg); */
+    background-image: url(https://i.pinimg.com/originals/69/98/fd/6998fd867b0eaed370b95607cb8be8a6.jpg);
+    background-color: rgb(186, 186, 186);
+    /* width: 100%; */
+    /* background-size: auto; */
+    /* background-size: 100% 50%; */
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    /* background-repeat: no-repeat; */
+    height: auto;
+    object-fit: cover;
+    max-width: 2560px;
+    
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 40px;
+    background-color: burlywood;
+}
+
+.nav-link {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+/* .logo-box {
+    background-color: darkgray;
+    padding-top: auto;
+} */
+
+.logo {
+    color: cornsilk;
+    margin-top: 20px;
+    margin-left: 30px;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: cornsilk;
+    text-shadow:2px 2px rgb(128, 127, 121);
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+a:hover {
+    text-decoration: none;
+    color: cornsilk;
+    text-shadow:2px 2px rgb(128, 127, 121);
+    transition: 0.5s;
+    
+}
+
+ul.navigation-items {
+    flex-direction: row;
+}
+
+img {
+    width: 300px;
+    margin-right: 50px;
+    max-width: 200%;
+}
+
+/* .container {
+    max-width: 110px;
+} */
+
+/* about me picture. */
+.portrait {
+    /* width: 300px;
+    margin-right: 10px;
+    max-width: 50%; */
+    float: left;
+}
+
+
+.about-me {
+    border: solid 1px rgb(111, 111, 111);
+    /* margin: 20px 60px 1000px 20px; */
+    margin: 20px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, 0.749);
+}
+/* portfolio.html style */
+.portfolio-container{
+    max-width: 2000px;
+    border: solid 1px rgb(111, 111, 111);
+    margin: 2rem;
+    padding: 1rem;
+    /* margin: 20px; */
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, 0.749);
+}
+
+.crop {
+    height: 200px;
+    /*width: 400px;*/
+    overflow: hidden;
+}
+.crop img {
+    height: auto;
+    /* width: 70%; */
+}
+/* .box1 {
+    margin: auto;
+    padding: 0px;
+    background-color: tomato;
+} */
+
+.image {
+    margin-top: 20px;
+}
+
+.centered {
+    padding: 20px 40px 20px 40px;
+    /* border-radius: 15px; */
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    /* font-size: 20px;
+    text-shadow: 2px 2px wheat; */
+    color: burlywood;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+/* contact.html style */
+.contact-me {
+    min-width: 300px;
+    max-width: 1000px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.749);
+    border: solid 1px rgb(111, 111, 111);
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    /* margin: 20px 60px 1000px 20px; */
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 20px;
+    min-height: 500px;
+}
+
+.contact-form {
+    margin: 20px;
+    padding: 5px;
+}
+
+.background-box {
+    padding: 50px;
+
+    
+}
+
+/* contact page */
+.contact {
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+.contact h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+.contact h2 {
+    font-size: 16px;
+}
+
+
+/* mobile devise use */
+@media only screen and (max-width: 600px) {
+    .contact-me {
+        padding: 20px;
+        margin-top: 0px;
+        font-size: 18px;   
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+  .nav-link{
+      /* background-color: tomato; */
+      margin: 0px; 
+  }
+  ul.navbar {
+      
+      display: block;
+      width: 160px;
+  }
+}
+
+footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        padding-top: 10px;
+        width: 100%;
+        background-color: burlywood;
+        color: cornsilk;
+        font-family: 'Pacifico', sans-serif;
+        font-size: 22px;
+        text-shadow: 2px 2px darkgrey;
+        text-align: center;
+
+    /* background-color:burlywood ;
+    text-align: center; */
+}
